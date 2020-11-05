@@ -1,0 +1,22 @@
+{
+    "name": "pk",
+    "version": "1.0.0",
+    "description": "> TODO: description",
+    "author": "jiner <414070723@qq.com>",
+    "homepage": "",
+    "license": "ISC",
+    "main": "dist/index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "dependencies": {
+        "pk1": "^0.0.0"
+    }
+}
