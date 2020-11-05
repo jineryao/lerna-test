@@ -6,21 +6,36 @@
     "main": "lib/index.js",
     "scripts": {
         "serve": "vite serve demo",
+        "serve:webpack": "webpack-dev-server --config ./demo-cli/webpack.config.js",
         "gen": "bash ./scripts/gc.sh",
         "bootstrap": "yarn && npx lerna bootstrap",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
     "license": "ISC",
-    "dependencies": {},
     "peerDependencies": {
         "vue": "^3.0.2"
     },
     "devDependencies": {
-        "lerna": "^3.22.1",
+        "babel-loader": "^8.1.0",
+        "@vue/cli-plugin-babel": "^4.5.8",
+        "@vue/cli-plugin-eslint": "^4.5.8",
+        "@vue/cli-service": "^4.5.8",
         "@vue/compiler-sfc": "^3.0.2",
+        "babel-eslint": "^10.1.0",
+        "core-js": "^3.6.5",
+        "eslint": "^7.12.1",
+        "eslint-plugin-vue": "^7.1.0",
+        "html-webpack-plugin": "^4.5.0",
+        "lerna": "^3.22.1",
+        "ts-loader": "^8.0.9",
         "typescript": "^4.0.5",
-        "vite": "^1.0.0-rc.9"
+        "url-loader": "^4.1.1",
+        "vite": "^1.0.0-rc.9",
+        "vue-loader": "^16.0.0-beta.10",
+        "webpack": "4.44.1",
+        "webpack-cli": "3.3.12",
+        "webpack-dev-server": "^3.11.0"
     },
     "typings": "types/index.d.ts",
     "workspaces": [
