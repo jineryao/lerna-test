@@ -7,7 +7,6 @@
     "scripts": {
         "serve": "vite serve demo",
         "serve:webpack": "webpack-dev-server --config ./demo-cli/webpack.config.js",
-        "gen": "bash ./scripts/gc.sh",
         "bootstrap": "yarn && npx lerna bootstrap",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -17,12 +16,12 @@
         "vue": "^3.0.2"
     },
     "devDependencies": {
-        "babel-loader": "^8.1.0",
         "@vue/cli-plugin-babel": "^4.5.8",
         "@vue/cli-plugin-eslint": "^4.5.8",
         "@vue/cli-service": "^4.5.8",
         "@vue/compiler-sfc": "^3.0.2",
         "babel-eslint": "^10.1.0",
+        "babel-loader": "^8.1.0",
         "core-js": "^3.6.5",
         "eslint": "^7.12.1",
         "eslint-plugin-vue": "^7.1.0",
